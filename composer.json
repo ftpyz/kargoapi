@@ -22,11 +22,11 @@
   "require": {
     "php": ">=5.3",
     "ext-curl": "*",
-    "guzzlehttp/guzzle": "~6.0"
+    "guzzlehttp/guzzle": "@dev"
   },
   "autoload": {
-    "psr-0": {
-      "Httpful": "src/"
+    "psr-4": {
+      "KargoApi\\": "src/"
     }
   },
   "require-dev": {
